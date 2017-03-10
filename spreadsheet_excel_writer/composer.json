@@ -1,0 +1,12 @@
+{
+    "name": "vendor/php-project",
+    "require": {
+        "asgoodasnu/spreadsheet-excel-writer": "dev-master"
+    },
+    "include-path": ["vendor/asgoodasnu/spreadsheet-excel-writer/Wk/SpreadsheetExcelWriter/"],
+    "autoload": {
+        "psr-0": {
+            "Spreadsheet_Excel_Writer": "vendor/asgoodasnu/spreadsheet-excel-writer/Wk/SpreadsheetExcelWriter/"
+        }
+    }
+}
